@@ -1,0 +1,22 @@
+﻿Git Clone of Github Repository:
+1.	git clone https://github.com/Codeburg8/Assignment13.git
+
+
+Creating 2 Branches:
+1.	Git branch middleware/UI
+2.	Git checkout middleware/UI //to switch to branch middleware/UI
+3.	(Once switched to branch middleware/UI): Git push origin middleware/UI //To upload these branches on Github
+
+
+Pushing middleware (Nodejs) code:
+1.	From master branch: git checkout middleware
+2.	git add –all
+3.	git commit –m “Commit message”
+4.	git push origin middleware
+
+
+Pushing UI (FrontEnd) code:
+1.	From master branch: git checkout UI
+2.	git add –all
+3.	git commit –m “Commit message”
+4.	git push origin UI
